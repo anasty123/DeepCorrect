@@ -10,15 +10,13 @@ A complete description of *DeepCorrect* can be found in our journal paper [IEEE 
    **2-dimensional t-SNE embedding of baseline AlexNet DNN features for ImageNet object classes :**
    
 
-   ![baseline AlexNet](https://github.com/tsborkar/DeepCorrect/blob/master/eps_fig/Fig3_1.png)
-
-
+   ![baseline AlexNet](https://github.com/tsborkar/DeepCorrect/blob/master/Fig3_1.png)
 
 
    **2-dimensional t-SNE embedding of DeepCorrect features for ImageNet object classes :**
 
 
-  ![baseline AlexNet](https://github.com/tsborkar/DeepCorrect/blob/master/eps_fig/Fig15_1.png)
+  ![baseline AlexNet](https://github.com/tsborkar/DeepCorrect/blob/master/Fig15_1.png)
 
 
    **Deep neural network architectures :**
@@ -27,7 +25,7 @@ A complete description of *DeepCorrect* can be found in our journal paper [IEEE 
   
 
 
-  ![model_arch](https://github.com/tsborkar/DeepCorrect/blob/master/eps_fig/model_fig.png)
+  ![model_arch](https://github.com/tsborkar/DeepCorrect/blob/master/model_fig.png)
 
 
 
@@ -100,17 +98,6 @@ If you use *DeepCorrect* in your research, please consider citing:
 | :-----------:  | :--------------: | :---------: |
 |  Finetuning    |    60.94 M       | 11.7 M  |
 | *DeepCorrect*  |      2.81 M      |   5.5 M |
-
-
-#### Accelerating training
-
-   ImageNet validation set accuracy vs. training iterations
-
-
-  ![train_time](https://github.com/tsborkar/DeepCorrect/blob/master/eps_fig/training_times.png)
-  
-
-
 
 
 
