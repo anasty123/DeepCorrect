@@ -40,7 +40,7 @@ If you use *DeepCorrect* in your research, please consider citing:
   journal   = {IEEE Transactions on Image Processing},
   doi       = {10.1109/TIP.2019.2924172},
   pages     = {1-13},
-  year      = {2017},
+  year      = {2019},
   issn      = {1057-7149},
 }
 ```
@@ -56,42 +56,50 @@ If you use *DeepCorrect* in your research, please consider citing:
   eprint    = {1705.02406},
 }
 ```
-## License
-*DeepCorrect* is released under the MIT License (refer to the LICENSE file for details).
+## *DeepCorrect* performance results 
 
-## *DeepCorrect* performance results
+### ResNet18 
+#### Top-1 accuracy for ImageNet
+
+| Model       | Gasussian Blur  | AWGN  | Motion Blur  | Defocus Blur  | Camshake Blur  |
+|:--------:   |:---------------:|:-----:|:------------:|:-------------:|:--------------:|
+| Baseline    |  0.3841         |0.3255 |   0.4436     |    0.3582     |     0.4749     |
+| Finetuning  |  0.5617         |0.5970 |   0.6197     |    0.5615     |     0.6041     |
+|*DeepCorrect*|  **0.5839**         |**0.6087** |   **0.6474**     |    **0.5831**     |     **0.6365**     | 
+
+### AlexNet 
 
 #### Top-1 accuracy for undistorted images
 
-|   Model        |  ImageNet (2012) |    SUN-397  |   Caltech-101  |  Caltech-256   |  CIFAR-100  |
-| :-----------:  | :--------------: | :---------: |   :----------: |   :---------:  | :---------: |
-|  Baseline      |    0.5694        |   0.3100    |     0.8500     |    0.6200      |   0.7028    |
+|   Model        |  ImageNet        |    SUN-397  |   Caltech-101  |  Caltech-256   | 
+| :-----------:  | :--------------: | :---------: |   :----------: |   :---------:  | 
+|  Baseline      |    0.5694        |   0.3100    |     0.8500     |    0.6200      | 
 
 
 #### Top-1 accuracy for Gaussian blur affected images, averaged over all levels of distortion
 
 
-|   Model        |  ImageNet (2012) |    SUN-397  |   Caltech-101  |  Caltech-256   |  CIFAR-100  |
-| :-----------:  | :--------------: | :---------: |   :----------: |   :---------:  | :---------: |
-|  Baseline      |    0.2305        |   0.1393    |     0.4980     |    0.2971      |   0.2502    |
-|  Finetuning    |    0.4596        |   0.2369    |     0.7710     |    0.5167      |   0.5727    |
-| *DeepCorrect*  |   **0.5071**     | **0.3049**  |   **0.8371**   |   **0.5883**   | **0.6023**  |
+|   Model        |  ImageNet (2012) |    SUN-397  |   Caltech-101  |  Caltech-256   |  
+| :-----------:  | :--------------: | :---------: |   :----------: |   :---------:  | 
+|  Baseline      |    0.2305        |   0.1393    |     0.4980     |    0.2971      |  
+|  Finetuning    |    0.4596        |   0.2369    |     0.7710     |    0.5167      |  
+| *DeepCorrect*  |   **0.5071**     | **0.3049**  |   **0.8371**   |   **0.5883**   | 
 
 
 #### Top-1 accuracy for AWGN affected images, averaged over all levels of distortion
 
-|   Model        |  ImageNet (2012) |    SUN-397  |   Caltech-101  |  Caltech-256   |  CIFAR-100  |
-| :-----------:  | :--------------: | :---------: |   :----------: |   :---------:  | :---------: |
-|  Baseline      |    0.2375        |   0.0859    |     0.3423     |    0.1756      |   0.3147    |
-|  Finetuning    |    0.4894        |   0.1617    |     0.7705     |    0.4995      |   0.6451    |
-| *DeepCorrect*  |   **0.5092**     | **0.2936**  |   **0.8034**   |   **0.5482**   | **0.6452**  |
+|   Model        |  ImageNet (2012) |    SUN-397  |   Caltech-101  |  Caltech-256   |  
+| :-----------:  | :--------------: | :---------: |   :----------: |   :---------:  | 
+|  Baseline      |    0.2375        |   0.0859    |     0.3423     |    0.1756      |  
+|  Finetuning    |    0.4894        |   0.1617    |     0.7705     |    0.4995      |  
+| *DeepCorrect*  |   **0.5092**     | **0.2936**  |   **0.8034**   |   **0.5482**   | 
 
 #### Trainable parameters 
 
-|   Model        |  ImageNet (2012) |  CIFAR-100  |
+|   Model        |    AlexNet       |  ResNet18   |
 | :-----------:  | :--------------: | :---------: |
-|  Finetuning    |    60.94 M       |   1.38 M    |
-| *DeepCorrect*  |      2.81 M      |     0.89 M  |
+|  Finetuning    |    60.94 M       | 11.7 M  |
+| *DeepCorrect*  |      2.81 M      |   5.5 M |
 
 
 #### Accelerating training
@@ -101,20 +109,6 @@ If you use *DeepCorrect* in your research, please consider citing:
 
   ![train_time](https://github.com/tsborkar/DeepCorrect/blob/master/eps_fig/training_times.png)
   
-#### Qualitative evaluation for ImageNet images
-
-   SSIM vs. Filter index
-
-
-  ![ssim](https://github.com/tsborkar/DeepCorrect/blob/master/eps_fig/ssim-crop.png)
-  
-   PSNR vs. Filter index
-
-  ![psnr](https://github.com/tsborkar/DeepCorrect/blob/master/eps_fig/psnr-crop.png)
-
-
-A complete description of the results and the corresponding experimental setup can be found
-in the [arXiv tech report](https://arxiv.org/abs/1705.02406).
 
 
 
