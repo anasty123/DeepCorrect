@@ -92,7 +92,7 @@ If you use *DeepCorrect* in your research, please consider citing:
 |  Finetuning    |    0.4894        |   0.1617    |     0.7705     |    0.4995      |  
 | *DeepCorrect*  |   **0.5092**     | **0.2936**  |   **0.8034**   |   **0.5482**   | 
 
-#### Trainable parameters 
+### Trainable parameters 
 
 |   Model        |    AlexNet       |  ResNet18   |
 | :-----------:  | :--------------: | :---------: |
@@ -102,4 +102,4 @@ If you use *DeepCorrect* in your research, please consider citing:
 
 
 ## Code
-Due to a patent pending for DeepCorrect, our pretrained DeepCorrect models will be made available for academic purposes upon request. Please email Tejas Borkar (tsborkar@asu.edu) for any questions. 
+Due to a patent pending for *DeepCorrect*, our pretrained *DeepCorrect* models will be made available for academic purposes upon request. Please email Tejas Borkar (tsborkar@asu.edu) for any questions. 
