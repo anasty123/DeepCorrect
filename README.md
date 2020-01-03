@@ -56,6 +56,8 @@ If you use *DeepCorrect* in your research, please consider citing:
 ```
 ## *DeepCorrect* performance results 
 
+**Examples of distortion affected images :**
+
 ### ResNet18 
 #### Top-1 accuracy for ImageNet
 
