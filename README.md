@@ -102,4 +102,4 @@ If you use *DeepCorrect* in your research, please consider citing:
 
 
 ## Code
-Due to a patent pending for *DeepCorrect*, our pretrained *DeepCorrect* models will be made available for academic purposes upon request. Please email Tejas Borkar (tsborkar@asu.edu) for any questions. 
+Due to a [patent pending for *DeepCorrect*](https://patents.google.com/patent/US20190303720A1/en), our pretrained *DeepCorrect* models will be made available for academic purposes upon request. Please email Tejas Borkar (tsborkar@asu.edu) for any questions. 
