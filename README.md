@@ -10,8 +10,21 @@ A complete description of *DeepCorrect* can be found in our journal paper [IEEE 
 
    **Examples of distortion affected images :**
      ![Distortion](Distortions.png)
-   **DNN prediction performance vs. Image quality  :**
-     ![DNN_perf_blur](blur_dnn.png) 
+
+   **2-dimensional t-SNE embedding of baseline AlexNet DNN features for ImageNet object classes :**
+   
+
+   ![baseline AlexNet](Fig3_1.png)
+
+
+
+   **2-dimensional t-SNE embedding of DeepCorrect features for ImageNet object classes :**
+
+
+  ![baseline AlexNet](Fig15_1.png)
+
+
+
  **Robust perception for quality affected images using DeepCorrect :**
    
    Convolution layers in the *DeepCorrect* models, shown in gray with dashed outlines, are nontrainable layers and their weights are kept the same as those of the baseline models trained on undistorted images. 
