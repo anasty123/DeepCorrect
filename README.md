@@ -8,11 +8,11 @@ A complete description of *DeepCorrect* can be found in our journal paper [IEEE 
 
 
 
-   **Examples of distortion affected images: **
+   **Examples of distortion affected images :**
      ![Distortion](Distortions.png)
-   **DNN prediction performance vs. Image quality **
-     ![DNN_perf]()
-   **Robust perception for quality affected images using DeepCorrect **
+   **DNN prediction performance vs. Image quality  :**
+     ![DNN_perf_blur](blur_dnn.png) 
+ **Robust perception for quality affected images using DeepCorrect :**
    
    Convolution layers in the *DeepCorrect* models, shown in gray with dashed outlines, are nontrainable layers and their weights are kept the same as those of the baseline models trained on undistorted images. 
   
