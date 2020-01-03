@@ -8,8 +8,8 @@ A complete description of *DeepCorrect* can be found in our journal paper [IEEE 
 
 
 
-   **Examples of distortion affected images **
-     ![Distortion]()
+   **Examples of distortion affected images: **
+     ![Distortion](Distortions.png)
    **DNN prediction performance vs. Image quality **
      ![DNN_perf]()
    **Robust perception for quality affected images using DeepCorrect **
