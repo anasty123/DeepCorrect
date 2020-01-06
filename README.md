@@ -6,11 +6,6 @@ In recent years, the widespread use of deep neural networks (DNNs) has facilitat
 
 A complete description of *DeepCorrect* can be found in our journal paper [IEEE Transactions on Image Processing](https://ieeexplore.ieee.org/document/8746775) or in a pre-print on [ArXiv](https://arxiv.org/abs/1705.02406). 
 
-
-
-   **Examples of distortion affected images :**
-     ![Distortion](Distortions.png)
-
    **2-dimensional t-SNE embedding of baseline AlexNet DNN features for ImageNet object classes :**
    
 
